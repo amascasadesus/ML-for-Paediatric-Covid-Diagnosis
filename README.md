@@ -1,5 +1,5 @@
 ## **Developing predictive models for COVID-19 diagnosis in paediatric patients: A case study about the potentials of Machine Learning in Public Health**
-By Anna Mas-Casadesús (amascasadesus [at] gmail.com) / July 2020 / [AllWomen Data Science Bootcamp](https://www.allwomen.tech/academy/data-science-immersive-program/) Capstone Project
+By Anna Mas-Casadesús (amascasadesus[at]gmail.com) / July 2020 / [AllWomen Data Science Bootcamp](https://www.allwomen.tech/academy/data-science-immersive-program/) Capstone Project
 
 
 **Project Description**
