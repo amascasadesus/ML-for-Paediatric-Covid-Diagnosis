@@ -6,7 +6,7 @@ By Anna Mas-Casadesús / July 2020 / [AllWomen Data Science Bootcamp Capstone Pr
 
 A recent study from the Hospital Sant Joan de Déu of Barcelona has found that children appear to have a similar prevalence of COVID-19 antibodies to adults. Research also seems to indicate that most of the affected children present mild or no symptoms. This makes `diagnosis particularly difficult, the number of children affected by COVID-19 being still unknown`. (1)
 
-Amongst many other institutions, Hospital Vall d’Hebron of Barcelona is conducting research on COVID-19 (2). The Hospital made available to the public a dataset with paediatric patients with similar symptoms, some of which were diagnosed with COVID-19 and some others not (3) (![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `symptoms_paediatric_original.xlsx`). 
+Amongst many other institutions, Hospital Vall d’Hebron of Barcelona is conducting research on COVID-19 (2). The Hospital made available to the public a dataset with paediatric patients with similar symptoms, some of which were diagnosed with COVID-19 and some others not (3) (![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) symptoms_paediatric_original.xlsx). 
 
 I got in touch with the doctor who published the dataset, Dr. Antoni Soriano-Arandes, so I could understand the data and decide on the best strategy to analyse it. With this information, I designed a study using machine learning classification models as an approach to try to identify clinical indicators predictive of COVID-19 diagnosis in children.
 
@@ -29,7 +29,7 @@ I got in touch with the doctor who published the dataset, Dr. Antoni Soriano-Ara
     - Decision Tree visualisations
     - Feature importance analyses and visualisations through SHapley Additive exPlanations or SHAP method
 
-Please, go to the ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Jupyter Notebooks` folder for further details on each of the steps and all the Python codes - you will also find a file with the summarised code (![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Summary Code.ipynb/.py`). Refer to the ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Codebook.md` for specific information regarding the dataset variables. 
+Please, go to the ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Jupyter Notebooks folder for further details on each of the steps and all the Python codes - you will also find a file with the summarised code (![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Summary Code.ipynb/.py). Refer to the ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Codebook.md for specific information regarding the dataset variables. 
 
 **Project Outcome**
 
@@ -39,7 +39,7 @@ The dataset used for this project only contained information on 19 COVID-19 posi
 
 On another note, `the analyses with respect to which features were more important to predict COVID-19 in children showed that being younger, having taken antibiotics, not having received oxygen therapy, and/or not having had a chest-x ray taken were all protective factors` - or risk factors if the contrary conditions were true. Although these results must be viewed with caution for the reasons stated above, they hint what might be important factors in paediatric COVID-19 diagnosis and highlight the overall potential of machine learning approaches in the public health and epidemiology fields. 
 
-See the ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Presentation.pdf` for extended discussion and to get an overview of the project process and results.
+See the ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Presentation.pdf for extended discussion and to get an overview of the project process and results.
 
 References:
 
