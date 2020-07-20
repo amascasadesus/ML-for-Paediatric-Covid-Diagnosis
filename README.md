@@ -1,12 +1,10 @@
 ## **Developing predictive models for COVID-19 diagnosis in paediatric patients: A case study about the potentials of Machine Learning in Public Health**
-#### By Anna Mas-Casadesús (amascasadesus [at] gmail.com)
-#### July 2020
-#### [AllWomen](https://www.allwomen.tech/academy/data-science-immersive-program/) Data Science Bootcamp Capstone Project
+By Anna Mas-Casadesús (amascasadesus [at] gmail.com) / July 2020 / [AllWomen Data Science Bootcamp](https://www.allwomen.tech/academy/data-science-immersive-program/) Capstone Project
 
 
 **Project Description**
 
-A recent study from the Hospital Sant Joan de Déu of Barcelona has found that children appear to have a similar prevalence of COVID-19 antibodies to adults. Research also seems to indicate that most of the affected children present mild or no symptoms. This makes diagnosis particularly difficult, the number of children affected by COVID-19 being still unknown. (1)
+A recent study from the Hospital Sant Joan de Déu of Barcelona has found that children appear to have a similar prevalence of COVID-19 antibodies to adults. Research also seems to indicate that most of the affected children present mild or no symptoms. This makes `diagnosis particularly difficult, the number of children affected by COVID-19 being still unknown`. (1)
 
 Amongst many other institutions, Hospital Vall d’Hebron of Barcelona is conducting research on COVID-19 (2). The Hospital made available to the public a dataset with paediatric patients with similar symptoms, some of which were diagnosed with COVID-19 and some others not (3). 
 
@@ -14,24 +12,24 @@ I got in touch with the doctor who published the dataset, Dr. Antoni Soriano-Ara
 
 **Project Steps**
 
-1) *Data pre-processing*: Cleaning and transformation of the raw data to make it suitable for building and training machine learning models, including:
+1) `Data pre-processing`: Cleaning and transformation of the raw data to make it suitable for building and training machine learning models, including:
     - Basic data cleaning and manipulations (e.g. removal of duplicates, encoding)
     - Data standardisation
     - Feature selection (including Principal Component Analyses)
     - Missing data imputation (Multiple Imputation by Chained Equations or MICE method)
     - Oversampling (Synthetic Minority Oversampling TEchnique or SMOTE method)
-2) *Exploratory data analyses*: Performing initial analyses on the data to summarise its main characteristics and discover patterns.
+2) `Exploratory data analyses`: Performing initial analyses on the data to summarise its main characteristics and discover patterns.
 
-3) *Data modelling*: Building and training machine learning algorithms on the data to make predictions on new data
+3) `Data modelling`: Building and training machine learning algorithms on the data to make predictions on new data
     - 3.1) Pipeline with several classification models (Logistic Regression, k-Nearest Neighbors, Support Vector Machine Classifier, Decision Tree, Random Forest, Extra Gradient Boosting), using stratified train cross-validation and hyperparameter optimisation or tuning with RandomizedSearch strategy
     - 3.2) Pipeline with best performing models (i.e. Random Forests), using stratified train cross-validation and hyperparameter tuning with GridSearch strategy
     - 3.3) Application of the Global Surrogate Method for data interpretability
     - 3.4) Model evaluation through performance metrics
-4) *Model interpretation*: Trying to understand and explain the steps and decisions a machine learning model takes when making predictions, including:
+4) `Model interpretation`: Trying to understand and explain the steps and decisions a machine learning model takes when making predictions, including:
     - Decision Tree visualisations
     - Feature importance analyses and visualisations through SHapley Additive exPlanations or SHAP method
 
-Please, go to the <font color='blue'>Jupyter Notebooks</font> folder for further details on each of the steps and all the Python codes - you will also find a file with the summarised code (<font color='blue'>0. Summary Code.ipynb/.py</font>). Refer to the <font color='blue'>Codebook.md</font> for specific information regarding the dataset variables. 
+Please, go to the ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Jupyter Notebooks` folder for further details on each of the steps and all the Python codes - you will also find a file with the summarised code (![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Summary Code.ipynb/.py`). Refer to the ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Codebook.md` for specific information regarding the dataset variables. 
 
 **Project Outcome**
 
@@ -41,7 +39,7 @@ The dataset used for this project only contained information on 19 COVID-19 posi
 
 On another note, `the analyses with respect to which features were more important to predict COVID-19 in children showed that being younger, having taken antibiotics, not having received oxygen therapy, and/or not having had a chest-x ray taken were all protective factors` - or risk factors if the contrary conditions were true. Although these results must be viewed with caution for the reasons stated above, they hint what might be important factors in paediatric COVID-19 diagnosis and highlight the overall potential of machine learning approaches in the public health and epidemiology fields. 
 
-See the <font color='blue'>Presentation.pdf</font> for extended discussion and to get an overview of the project process and results.
+See the ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Presentation.pdf` for extended discussion and to get an overview of the project process and results.
 
 References:
 
