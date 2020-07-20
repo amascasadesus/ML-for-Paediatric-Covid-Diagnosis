@@ -6,7 +6,7 @@ By Anna Mas-Casadesús / July 2020 / [AllWomen Data Science Bootcamp Capstone Pr
 
 A recent study from the Hospital Sant Joan de Déu of Barcelona has found that children appear to have a similar prevalence of COVID-19 antibodies to adults. Research also seems to indicate that most of the affected children present mild or no symptoms. This makes `diagnosis particularly difficult, the number of children affected by COVID-19 being still unknown`. (1)
 
-Amongst many other institutions, Hospital Vall d’Hebron of Barcelona is conducting research on COVID-19 (2). The Hospital made available to the public a dataset with paediatric patients with similar symptoms, some of which were diagnosed with COVID-19 and some others not (3). 
+Amongst many other institutions, Hospital Vall d’Hebron of Barcelona is conducting research on COVID-19 (2). The Hospital made available to the public a dataset with paediatric patients with similar symptoms, some of which were diagnosed with COVID-19 and some others not (3) (![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `symptoms_paediatric_original.xlsx`). 
 
 I got in touch with the doctor who published the dataset, Dr. Antoni Soriano-Arandes, so I could understand the data and decide on the best strategy to analyse it. With this information, I designed a study using machine learning classification models as an approach to try to identify clinical indicators predictive of COVID-19 diagnosis in children.
 
