@@ -1,3 +1,8 @@
+## **Developing predictive models for COVID-19 diagnosis in paediatric patients: A case study about the potentials of Machine Learning in Public Health**
+By Anna Mas-Casadesús / July 2020 / [AllWomen Data Science Bootcamp Capstone Project](https://www.allwomen.tech/academy/data-science-immersive-program/)
+
+**Codebook**
+
 The raw dataset (![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) *symptoms_paediatric_original.xlsx*) used in this project has information from 86 children of Hospital Vall d'Hebron of Barcelona, 19 of which were diagnosed with COVID-19 and the remaining 67 with other illnesses. We can find the following variables:
    - `id` (patient identification; numeric code)
    - `age` (numeric)
